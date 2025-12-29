@@ -228,6 +228,6 @@ X, 2.5배
 
 # 기타 문의  
 오픈챗  
-https://open.kakao.com/me/Dolebot
+https://open.kakao.com/me/Dolebot  
 디스코드  
 `ke___`
