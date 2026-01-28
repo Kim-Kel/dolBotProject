@@ -203,7 +203,7 @@
 <body class="">
 
     <main id="main-hero">
-        <h1><span class="highlight">돌팔이</span> 봇으로 디스코드에 활기를!</h1>
+        <h1><span class="highlight">돌팔이</span> 봇으로 서버에 활기를!</h1>
 
         <div class="btn-group">
             <a href="https://discord.com/oauth2/authorize?client_id=1444900993077739570&permissions=8&integration_type=0&scope=bot"
@@ -218,7 +218,7 @@
             <div class="menu-item" onclick="openWiki('usage')">💎 돌멩이 사용처</div>
         </div>
 
-        <button class="btn-patch" onclick="openWiki('patch')">📋 최신 패치 내역 보기</button>
+        <button class="btn-patch" onclick="openWiki('patch')">📋 패치 내역 / 알려진 문제</button>
     </main>
 
     <div id="wiki-page">
@@ -299,6 +299,7 @@
             'patch': {
                 title: '패치 내역',
                 sections: [
+                    { id: 'todo', title: '알려진 문제', content: '• 아주 가끔씩 카드게임이 종료되지 않는 현상\n  게임이 아직 진행중이라며 다른 기능을 사용 못하는 현상입니다.\n  디스코드 서버의 콜백 에러가 원인이며 해결 방법을 찾는 중입니다.\n  해당 문제 발생시 5분간 기다리시거나 /제보 기능으로 알려주시면 재부팅으로 해결해드립니다.\n\n• 카드게임의 돌멩이 표기가 개선되지 않음\n  곧 업데이트 예정입니다.' },
                     { id: '0118', title: '26.01.18', content: '• 카드게임(블랙잭, 바카라) 보상 상향\n• 카드게임 돌멩이 표기 개선\n• AI 챗봇 도배시 일정 시간동안 응답하지 않도록 변경\n• /이름 기능 사용시 해당 유저들을 멘션하도록 변경\n• /마스크 기능 사용시 해당 유저들을 멘션하도록 변경' }
                 ]
             }
