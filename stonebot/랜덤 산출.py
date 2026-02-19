@@ -11,7 +11,7 @@ def betpoint(uid,point):
         return [False,'돌멩이가 부족합니다.\n현재 돌멩이 : '+formatpoint(userdata[uid]['points'])]
     userdata[uid]['bettry'] += 1
     ran = secrets.randbelow(100) + 1
-    if ran > 50:
+    if ran >= 50:
         userdata[uid]['betwon'] += 1
         if ran > 95:
             addpoint(uid,point*2,'bet wx2')
